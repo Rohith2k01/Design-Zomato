@@ -1,7 +1,7 @@
 /* first section style */
 
 .first_section_main{
-  height: 105vh;
+  height: auto;
   width: 100%;
   background-color: orangered;
   background-image: 
@@ -21,22 +21,23 @@
   margin-top: 1%;
   height: 100px;
   width: 80%;
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
 }
 
 .first-navbar-left{
   flex: 1;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
   align-items: center;
+  display: flex;
 
 
 }
 
 .first-navbar-right{
   flex: 1;
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,9 +92,10 @@
 
 /* first content section */
 .first-content-section{
-  height: 300px;
+  padding-top: 10%;
+  height: auto;
   width: 70%;
-  background-color: blue;
+  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -116,6 +118,9 @@
   justify-content: space-evenly;
   padding-top: 2%;
   padding-bottom: 5%;
+  position: relative;
+  position: relative;
+  position: relative;
 
 
 }
@@ -123,7 +128,7 @@
 .first-content-location{
   all: unset;
   height: 60px;
-  width: 33%;
+  width: 37%;
   border: none;
   background-color: white;
   display: flex;
@@ -134,8 +139,71 @@
   font-size: 18px;
   font-weight: 520;
   font-family: Gilroy, arial, Helvetica Neue, sans-serif;
-  border-radius: 10px;
+  border-radius: 20px;
+
+}
+
+.location-icon-first{
+  position: absolute;
+  top: 26%;
+  left: 2%;
+  font-size: 30px;
+  color: orangered;
 
 
 }
 
+.down-arrow-first{
+  position: absolute;
+  font-size: 30px;
+  top: 27%;
+  left: 34.5%;
+  color: black;
+
+}
+
+.first-content-search{
+  all: unset;
+  height: 60px;
+  width: 55%;
+  border-radius: 20px;
+  font-size: 22px;
+  padding-left: 20px;
+  background: white;
+
+}
+
+.search-icon-first{
+  position: absolute;
+  font-size: 25px;
+  top: 29%;
+  left: 89%;
+
+}
+
+/* first-last-section */
+
+.first-last-section{
+  height: auto;
+  width: 80%;
+  /* background-color: yellow; */
+}
+
+
+/* second-section-main */
+
+.second-section-main{
+  height: auto;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.second-inner{
+  height: 100%;
+  width: 80%;
+  /* background-color: red; */
+}

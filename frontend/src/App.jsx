@@ -167,6 +167,12 @@ function App() {
                   <p>+ 1 more</p>
                 </button>
 
+                <button className='third-card-offer-btn2'>
+                  <p>
+                  Up to 10% off with bank offers
+                  </p>
+                </button>
+
               </div>
 
 

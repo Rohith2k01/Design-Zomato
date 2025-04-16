@@ -207,3 +207,239 @@
   width: 80%;
   /* background-color: red; */
 }
+
+/* third-section */
+
+.third-section{
+  height: 700px;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+}
+
+.third-inner{
+  height: 100%;
+  width: 80%;
+  /* background-color: red; */
+}
+
+.third-heading{
+  font-weight: 600;
+}
+
+.third-card-section{
+  height: auto;
+  width: 100%;
+  margin-top: 2%;
+  /* background-color: yellow; */
+
+}
+
+.third-card-onebyone{
+  height: 420px;
+  width: 350px;
+  /* background-color: green; */
+  border-radius: 20px;
+
+
+}
+
+.third-card-image{
+  height: 200px;
+  width: 100%;
+  /* background-color: blue; */
+  background-image:
+    linear-gradient(to bottom, rgba(255, 0, 0, 0),rgba(255, 0, 0, 0),rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.907)),
+    url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1683631543/e7014ff61fdbd22b20392abf0c4ca48e.jpg'); 
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: end;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 10px;
+  
+}
+
+.third-image-left{
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.third-image-right{
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+
+.third-star-icon{
+  font-size: 12px;
+  /* background-color: green; */
+  color: white;
+  border-radius: 50%;
+  padding: 4px;
+  position: absolute;
+  left: -100%;
+
+}
+
+.third-card-content{
+  height: 220px;
+  width: 100%;
+  /* background-color: blueviolet; */
+  padding: 9px;
+  border: 1px solid rgb(82, 82, 82);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: rgb(102, 102, 102);
+}
+
+.third-table-booking{
+  border: none;
+  height: 25px;
+  padding-left: 10px;
+  margin-top: 10px;
+  padding-right: 10px;
+  background-color: rgb(156, 156, 156);
+  color: rgb(53, 53, 53);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-table-btn{
+  font-size: 12px;
+
+}
+
+.third-card-offer-btn{
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  background-color: rgb(27, 166, 114);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+
+/* footer */
+
+.footer-main{
+  height: 85vh;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  background-color: rgb(236, 236, 236);
+}
+
+.inner-footer{
+  height: auto;
+  width: 80%;
+  /* background-color: green; */
+  display: flex;
+}
+
+.footer-one{
+  flex: 1;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.footer-two{
+  flex: .6;
+  /* background-color: yellow; */
+  
+}
+
+.footer-three{
+  flex: .6;
+  /* background-color: blue; */
+  
+}
+
+.footer-four{
+  flex: .6;
+  /* background-color: gray; */
+  
+}
+
+.footer-five{
+  flex: .6;
+  /* background-color: violet; */
+  
+}
+
+.content-footer-one{
+  font-size: 15px;
+  font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+  font-weight: 600;
+  color: rgb(110, 110, 110);
+
+}
+
+.footer-p{
+  font-size: 17px;
+  font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+  font-weight: 600;
+  color: rgb(110, 110, 110);
+  margin-top: 20px;
+
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-section{
+  height: 100px;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-inner{
+  height: 100px;
+  width: 80%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(78, 78, 78);
+  font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+
+}
+
+.select-btn{
+  height: 25px;
+  width: 100px;
+  border: none;
+  border: 1px solid rgb(110, 110, 110);
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+  color: rgb(110, 110, 110);
+  font-family: Gilroy, arial, Helvetica Neue, sans-serif;
+  cursor: pointer;
+  
+}
